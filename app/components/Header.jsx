@@ -10,11 +10,11 @@ const Header = () => {
         whileInView={{ scale: 1 }}
         transition={{duration: 0.8, type: 'spring', stiffness: 100}}
         > 
-        <Image src={assets.profile_img}  alt='profile' className='rounded-full w-32 mt-40'/>
+        <Image src={assets.profile_img}  alt='profile' className='rounded-full w-24 sm:w-32 md:w-40 mt-16 sm:mt-20 lg:mt-28'/>
          </motion.div>
-         <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-4 font-Ovo'>
+         <h3 className='flex items-center gap-2 text-lg sm:text-xl md:text-2xl mb-2 font-Ovo'>
             Hello, I'm Kevin Macharia <Image src={assets.hand_icon}  alt='profile' className='w-6'/></h3>
-            <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
+            <h1 className='text-2xl sm:text-4xl md:text-5xl lg:text-[66px] font-Ovo leading-tight'>
                 Full Stack Developer based in Kenya</h1>
                 <hr />
                 <p className='max-w-2xl mx-auto font-Ovo'>
