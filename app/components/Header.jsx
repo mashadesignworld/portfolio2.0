@@ -22,7 +22,7 @@ const Header = () => {
                 I also have back-end experience with nodejs,Laravel, creating REST APIs, and working with Mysql,MongoDB and GraphQL for database and API development.  
                 This full-stack expertise allows me to deliver complete web solutions.
                 </p>
-                <div className='flex fex-col sm:flex-row items-center gap-4 mt-4'>
+                <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                     <a href='#contact'  className='px-10 py-3 border-white rounded-full bg-black text-white border-gray-500 flex 
                      items-center gap-2'>Contact Me<Image src={assets.right_arrow_white} alt='' className='w-4' /></a>
                     <a href='/cv.pdf' download
