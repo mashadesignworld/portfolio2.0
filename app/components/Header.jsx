@@ -1,13 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
 import { assets } from '@/assets/assets'
-
+import  { motion } from "motion/react"
 const Header = () => {
   return (
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4'>
-        <div className='mt-40'> 
-        <Image src={assets.profile_img}  alt='profile' className='rounded-full w-32'/>
-         </div>
+        <motion.div
+        initial={{ scale: 0 }}
+        whileInView={{ scale: 1 }}
+        transition={{duration: 0.8, type: 'spring', stiffness: 100}}
+        > 
+        <Image src={assets.profile_img}  alt='profile' className='rounded-full w-32 mt-40'/>
+         </motion.div>
          <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-4 font-Ovo'>
             Hello, I'm Kevin Macharia <Image src={assets.hand_icon}  alt='profile' className='w-6'/></h3>
             <h1 className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
