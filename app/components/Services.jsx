@@ -2,10 +2,11 @@ import { serviceData } from '@/assets/assets'
 import { assets } from '@/assets/assets'
 import Image from 'next/image'
 import React from 'react'
+import  { motion } from "motion/react";
 
 const Services = () => {
   return (
-    <div id='services' className='w-full px-[12%] py-10 scroll-mt-2'>
+    <motion.div id='services' className='w-full px-[12%] py-10 scroll-mt-2'>
         <h4 className='text-center mb-2 text-lg font-Ovo'>
             What i offer
         </h4>
@@ -27,7 +28,7 @@ const Services = () => {
                     </div>
                 ))}
         </div>
-    </div>
+    </motion.div>
   )
 }
 
