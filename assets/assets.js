@@ -131,7 +131,7 @@ export const workData = [
         title: 'FreeKenya Registration',
         description: 'Nextjs |Mongodb | Rest API',
         bgImage: '/work-20.png',
-        url:'https://www.fipcapital.net/',
+        url:'https://portfolio20-alpha.vercel.app/',
     },
 
 ]
