@@ -16,7 +16,7 @@ import logonew from './logonew.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './profile.jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -119,6 +119,19 @@ export const workData = [
         title: 'FIP Capital',
         description: 'Html5 | Css | Javascript',
         bgImage: '/work-18.png',
+        url:'https://www.fipcapital.net/',
+    },
+
+    {
+        title: 'Njiri Aristocrat',
+        description: 'Wordpress | Woocomerce ',
+        bgImage: '/work-19.png',
+        url:'https://www.njiriaristocrat.com/',
+    },
+    {
+        title: 'FreeKenya Registration',
+        description: 'Nextjs |Mongodb | Rest API',
+        bgImage: '/work-20.png',
         url:'https://www.fipcapital.net/',
     },
 
