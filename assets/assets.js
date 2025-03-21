@@ -121,6 +121,18 @@ export const workData = [
         bgImage: '/work-18.png',
         url:'https://www.fipcapital.net/',
     },
+     {
+        title: 'Njiri Aristocrat',
+        description: 'Wordpress | Woocomerce ',
+        bgImage: '/work-19.png',
+        url:'https://www.njiriaristocrat.com/',
+    },
+    {
+        title: 'FreeKenya Registration',
+        description: 'Nextjs |Mongodb | Rest API',
+        bgImage: '/work-20.png',
+        url:'https://www.fipcapital.net/',
+    },
 
 ]
 
