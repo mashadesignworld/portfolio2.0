@@ -133,6 +133,12 @@ export const workData = [
         bgImage: '/work-20.png',
         url:'https://freekenyanew.onrender.com/',
     },
+       {
+        title: 'Rentoline Limited',
+        description: 'Html |Css | Java Script',
+        bgImage: '/work-21.jpg',
+        url:'https://www.rentoline.co.ke/',
+    },
 
 ]
 
