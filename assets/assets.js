@@ -85,12 +85,7 @@ export const workData = [
         bgImage: '/work-12.png',
         url: 'https://lukenyaresort.com/',
     },
-    {
-        title: 'Egg production and sales App',
-        description: 'Web App | Laravel Php, Mysql',
-        bgImage: '/work-13.png',
-        url:'https://kuku.freekenyasignatures.com/',
-    },
+    
     {
         title: 'Free Kenya',
         description: 'Web Design | WordpressWebsite',
@@ -104,16 +99,16 @@ export const workData = [
         url:'https://watch-frlz.onrender.com/',
     },
     {
-        title: 'Athlete Upgrade',
-        description: 'Wordpress Website',
+        title: 'Epic African Safaris',
+        description: 'NextJs | Working on SEO',
         bgImage: '/work-16.png',
-        url:'https://athleteupgrade.co.ke/',
+        url:'https://epicafricansafaris.africa/',
     },
     {
         title: 'Signature Collection Form',
         description: 'Laravel Php | Mysql',
         bgImage: '/work-17.png',
-        url:'https://freekenyasignatures.com/signature-pad1',
+        url:'https://signatures.freekenya.co.ke',
     },
     {
         title: 'FIP Capital',
@@ -123,25 +118,26 @@ export const workData = [
     },
 
     {
-        title: 'Njiri Aristocrat',
-        description: 'Wordpress | Woocomerce ',
+        title: 'Rentoline Kenya Ltd',
+        description: 'Html5 Css Javascript', 
         bgImage: '/work-19.png',
-        url:'https://www.njiriaristocrat.com/',
+        url:'https://www.rentoline.co.ke/',
     },
     {
         title: 'FreeKenya Registration',
-        description: 'Nextjs |Mongodb | Rest API',
+        description: 'Nextjs |Mongodb | Rest API,Mpesa Express',
         bgImage: '/work-20.png',
-        url:'https://www.fipcapital.net/',
+        url:'https://freekenyanew.onrender.com/',
     },
 
 ]
 
 export const serviceData = [
+    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Bold visuals that pop, sell, and tell your story. Click To View Portfolio.' },
     { icon: assets.web_icon, title: 'Web design', description: 'Stunning websites that wow your audience and boost your brand—fast, fresh, and flawless.' },
     { icon: assets.mobile_icon, title: 'Web App Full Stack', description: 'Powerful web apps from front to back—built to perform, grow, and win you customers.' },
     { icon: assets.ui_icon, title: 'UI/UX design', description: 'Smooth, irresistible designs that keep users hooked and coming back for more.' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Bold visuals that pop, sell, and tell your story—no one scrolls past these.' },
+   
 ]
 
 export const infoList = [

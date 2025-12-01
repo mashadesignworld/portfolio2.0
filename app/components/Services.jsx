@@ -55,7 +55,7 @@ const Services = () => {
                         <Image src={icon} alt="services" className='w-10 my-5' />
                         <h3 className='text-lg my-4 text-gray-700 dark:text-white'>{title}</h3>
                     <p className='text-sm text-gray-600 leading-5 dark:text-white'>
-                        {description}
+                       <a href='https://watch-frlz.onrender.com/' target='_blank'>{description}</a> 
                     </p>
                     
                     </motion.div>
