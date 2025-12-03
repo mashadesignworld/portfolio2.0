@@ -116,20 +116,21 @@ export const workData = [
         bgImage: '/work-18.png',
         url:'https://www.fipcapital.net/',
     },
-
-    {
-        title: 'Rentoline Kenya Ltd',
-        description: 'Html5 Css Javascript', 
+     {
+        title: 'Rentoline Limited',
+        description: 'Html5 | Css | Javascript',
         bgImage: '/work-19.png',
-        url:'https://www.rentoline.co.ke/',
+        url:'https://www.njiriaristocrat.com/',
     },
     {
         title: 'FreeKenya Registration',
-        description: 'Nextjs |Mongodb | Rest API,Mpesa Express',
+        description: 'Nextjs |Mongodb | Rest API | Mpesa Integration',
         bgImage: '/work-20.png',
         url:'https://freekenyanew.onrender.com/',
     },
+      
 
+   
 ]
 
 export const serviceData = [
